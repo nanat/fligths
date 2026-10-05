@@ -4,7 +4,7 @@ version = "0.1.0"
 requires-python = "==3.12.*"
 
 dependencies = [
-    "pyspark-data-sources==0.1.6",
+    "pyspark-data-sources==0.1.11",
 ]
 
 [dependency-groups]
