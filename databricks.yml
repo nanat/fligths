@@ -1,10 +1,6 @@
 bundle:
   name: fligths
 
-sync:
-  include:
-    - src/transformations/**
-
 targets:
   dev:
     mode: development
