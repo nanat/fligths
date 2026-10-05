@@ -18,3 +18,7 @@ resources:
       libraries:
         - glob:
             include: src/transformations/**
+      environment:
+        environment_version: "5"
+        dependencies:
+          - pyspark-data-sources==0.1.6

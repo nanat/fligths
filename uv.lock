@@ -370,17 +370,13 @@ dependencies = [
 [package.dev-dependencies]
 dev = [
     { name = "databricks-connect" },
-    { name = "pyspark" },
 ]
 
 [package.metadata]
 requires-dist = [{ name = "pyspark-data-sources" }]
 
 [package.metadata.requires-dev]
-dev = [
-    { name = "databricks-connect", specifier = "~=18.0.0" },
-    { name = "pyspark" },
-]
+dev = [{ name = "databricks-connect", specifier = "~=18.0.0" }]
 
 [[package]]
 name = "ghp-import"
@@ -760,15 +756,6 @@ sdist = { url = "https://files.pythonhosted.org/packages/85/71/5f48080bde77b07ca
 wheels = [
     { url = "https://files.pythonhosted.org/packages/98/2d/2929de81618c7213176899dd6372d6ec9c8f24337841dd74634fb69864ae/pymdown_extensions-10.4-py3-none-any.whl", hash = "sha256:cfc28d6a09d19448bcbf8eee3ce098c7d17ff99f7bd3069db4819af181212037", size = 240838, upload-time = "2023-11-10T23:40:29.166Z" },
 ]
-
-[[package]]
-name = "pyspark"
-version = "4.2.0"
-source = { registry = "https://pypi.org/simple" }
-dependencies = [
-    { name = "py4j" },
-]
-sdist = { url = "https://files.pythonhosted.org/packages/c3/33/c987434f5d50aa802779a004ca0fd45ee4350caab50554ad7283d5a22b50/pyspark-4.2.0.tar.gz", hash = "sha256:5ad689d53570ee1674193fd4f9bda065f0db3be9363a27d2a3406cc457b70b61", size = 450129423, upload-time = "2026-07-14T22:16:46Z" }
 
 [[package]]
 name = "pyspark-data-sources"
